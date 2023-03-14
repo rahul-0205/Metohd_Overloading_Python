@@ -1,0 +1,9 @@
+class Solution:
+  def area(self,r,b=0):
+    if b==0:
+      print("circle",3.14*r*r)
+    else:
+      print("Rectangle:",r*b)
+obj=Solution()
+obj.area(4)
+obj.area(4,5)
